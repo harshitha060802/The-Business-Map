@@ -55,59 +55,65 @@
     </div>
     <!-- Navbar End -->
 
+    <h1 class="display-4 text-uppercase text-center mb-5" style="margin-top:50px;">You're <span class="text-primary">One Step </span>Away</h1>
+
 
     <!-- Search Start -->
     <div class="row mx-n2" id="inputss">
         <div class="container-fluid bg-white pt-3 px-lg-5">
 
-            <div class="row-input-1">
+            <form class="input-form" action="/register" method="GET">
 
-            <label for="investment">Investment</label>
-            <input type="number" id="investment" min="8500" max="120000">
+                <div class="row-input-1">
 
-            <label for="btype">Business Type</label>
-            <select name="btype" id="btype">
-                <option value="Textile_shop">Textile Shop</option>
-                <option value="grocery_shop">Grocery Shop</option>
-                <option value="Showrooms">Showroom</option>
-                <option value="Restaurants">Restaurant</option>
-                <option value="Office_space">Office Space</option>
-            </select>
+                <label for="investment">Investment</label>
+                <input type="number" id="investment" min="8500" max="120000">
 
-            <label for="area">Area in sq.ft</label>
-            <input type="number" id="area" min="250" max="1500">
+                <label for="btype">Business Type</label>
+                <select name="btype" id="btype">
+                    <option value="Textile_shop">Textile Shop</option>
+                    <option value="grocery_shop">Grocery Shop</option>
+                    <option value="Showrooms">Showroom</option>
+                    <option value="Restaurants">Restaurant</option>
+                    <option value="Office_space">Office Space</option>
+                </select>
 
-            </div>
+                <label for="area">Area in sq.ft</label>
+                <input type="number" id="area" min="250" max="1500">
 
-            <div class="row-input-2">
+                </div>
 
-            <label for="demographics">Demographics</label>
-            <select name="demographics" id="demographics">
-                <option value="kids">Kids</option>
-                <option value="Youth">Youth</option>
-                <option value="Middle_aged">Middle aged</option>
-                <option value="Senior">Senior</option>
-            </select>
+                <div class="row-input-2">
 
-            <label for="accessibility">Accessibility</label>
-            <select name="accessibility" id="accessibility">
-                <option value="Excellent">Excellent</option>
-                <option value="Good">Good</option>
-                <option value="Fair">Fair</option>
-                <option value="Bad">Bad</option>
-            </select>
+                <label for="demographics">Demographics</label>
+                <select name="demographics" id="demographics">
+                    <option value="kids">Kids</option>
+                    <option value="Youth">Youth</option>
+                    <option value="Middle_aged">Middle aged</option>
+                    <option value="Senior">Senior</option>
+                </select>
 
-            <label for="competition">Competition</label>
-            <select name="competition" id="btype">
-                <option value="High">High</option>
-                <option value="Medium">Medium</option>
-                <option value="Low">Low</option>
-            </select>
+                <label for="accessibility">Accessibility</label>
+                <select name="accessibility" id="accessibility">
+                    <option value="Excellent">Excellent</option>
+                    <option value="Good">Good</option>
+                    <option value="Fair">Fair</option>
+                    <option value="Bad">Bad</option>
+                </select>
 
-            </div>
+                <label for="competition">Competition</label>
+                <select name="competition" id="btype">
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select>
+
+                </div>
+
+            </form>    
 
         </div> 
-        <button type="submit" id="submit_search">Submit</button>
+        <button type="submit" onclick="" id="submit_search"><a href="submit.html" style="color:white;">Submit</a></button>
     </div>       
 
     <!-- Search End -->
@@ -201,9 +207,9 @@
         <div class="container py-5">
             <div class="bg-banner py-5 px-4 text-center">
                 <div class="py-5">
-                    <h1 class="display-1 text-uppercase text-primary mb-4">50% OFF</h1>
-                    <h1 class="text-uppercase text-light mb-4">Special Offer For New Members</h1>
-                    <p class="mb-4">Only for Sunday from 1st Jan to 30th Jan 2045</p>
+                    <h1 class="display-1 text-uppercase text-primary mb-4">20% OFF</h1>
+                    <h1 class="text-uppercase text-light mb-4">Special Offer For New Prime Members</h1>
+                    <p class="mb-4">It is valid from 1st Jan to 30th Jan 2023</p>
                     <a class="btn btn-primary mt-2 py-3 px-5" href="">Register Now</a>
                 </div>
             </div>

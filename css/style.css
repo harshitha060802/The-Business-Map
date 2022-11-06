@@ -376,4 +376,28 @@ h6,
     margin-left:45%;
     margin-bottom:7%;
 }
+
+#submit_service{
+    color:white;
+    background-color: #F77D0A;
+    border:none;
+    font-size:20px;
+    width:13%;
+    height:50px;
+    border-radius:5px;
+    margin-left:43%;
+    margin-bottom:7%;
+}
+
+#submit_service:hover{
+    color:white;
+    background-color: #F76D00;
+    border:none;
+    width:13%;
+    font-size:20px;
+    height:50px;
+    border-radius:5px;
+    margin-left:43%;
+    margin-bottom:7%;
+}
 /*Input CSS ends*/
